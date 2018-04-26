@@ -1,0 +1,3 @@
+/home/ozdenur/Quadtree/quadtree_latest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ozdenur/Quadtree/quadtree_latest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ozdenur/Quadtree/quadtree_latest/cmake-build-debug/CMakeFiles/quadtree_latest.dir

@@ -1,0 +1,4 @@
+/snap/clion/17/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ozdenur/Quadtree/quadtree_latest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ozdenur/Quadtree/quadtree_latest/cmake-build-debug

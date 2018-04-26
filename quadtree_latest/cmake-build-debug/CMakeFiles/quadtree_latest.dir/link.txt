@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/quadtree_latest.dir/src/main.cpp.o  -o quadtree_latest 
