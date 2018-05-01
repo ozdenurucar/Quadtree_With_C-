@@ -1,4 +1,1 @@
-/snap/clion/17/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ozdenur/Quadtree/quadtree_latest
--- Configuring done
--- Generating done
--- Build files have been written to: /home/ozdenur/Quadtree/quadtree_latest/cmake-build-debug
+MinGW not found at: C:\Program Files (x86)\mingw-w64\i686-7.1.0-posix-dwarf-rt_v5-rev0\mingw32

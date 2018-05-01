@@ -93,7 +93,8 @@ void QuadTree<T>::insert(Vertex v, T data, Node<T>* node, unsigned depth) {
             node->leaf = false;
             insert(v, data, childNode(v, node), depth + 1);
 
-            for (int i = 0; i < node->bucket.size(); ++i) {
+            for (int i = 0; i < node->bucket.size(); ++i) 
+			{
                 insert(node->bucket[i].first, data, childNode(node->bucket[i].first, node), depth + 1);
             }
 

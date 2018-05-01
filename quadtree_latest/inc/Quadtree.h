@@ -39,7 +39,6 @@ public:
 
     QuadTree<T>(Vertex center, Vertex range, unsigned bucketSize = 1, unsigned depth = 16);
     ~QuadTree();
-
     void insert(Vertex v, T data);
     std::string print();
 
