@@ -137,6 +137,21 @@ void QuadTree<T>::print(Node<T>* node, stringstream& ss)
         ss << "Bolge:" << dir << " -> " << '{' << node->bucket[0].first.x << ',' << node->bucket[0].first.y << '}' << '\n';
 
     }
-
     return;
+}
+
+
+template<typename T>
+void QuadTree<T>::write_to_file(vector<Vertex> points)
+{
+	fstream points_file("C:\\Users\\ozden\\Desktop\\point.txt");
+	if (points_file.is_open())
+	{
+		for (std::vector<Vertex>::iterator it = points.begin(); it != points.end(); ++it)
+		{
+			points_file << (*it).x << "," << (*it).y << "\n";
+		}
+		points_file.close();
+	}
+
 }

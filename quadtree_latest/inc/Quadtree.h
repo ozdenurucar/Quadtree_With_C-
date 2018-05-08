@@ -40,6 +40,7 @@ public:
     QuadTree<T>(Vertex center, Vertex range, unsigned bucketSize = 1, unsigned depth = 16);
     ~QuadTree();
     void insert(Vertex v, T data);
+	void write_to_file(vector<Vertex> points);
     std::string print();
 
 private:
@@ -48,12 +49,8 @@ private:
     int direction(const Vertex& point, Node<T>*node);
     void insert(Vertex v, T data, Node<T>* node, unsigned depth);
     void print(Node<T>* node, std::stringstream& ss);
-
     Node<T>* root; //Kök düğüm
     unsigned maxDepth, maxBucketSize;
-
-
-
 };
 
 #include "../src/Quadtree.cpp"

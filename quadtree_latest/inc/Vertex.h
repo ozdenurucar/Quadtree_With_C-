@@ -9,15 +9,15 @@ class Vertex
 {
 
 public:
-    double x;
-    double y;
+	long double x;
+	long double y;
 
     Vertex()
     {
         x=0.0;
         y=0.0;
     }
-    Vertex(double new_x, double new_y)
+    Vertex(long double new_x, long double new_y)
     {
         x=new_x;
         y=new_y;
